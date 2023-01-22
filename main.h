@@ -25,6 +25,5 @@ int print_buf(char *buf, unsigned int nbuf);
 int _printf(const char *format, ...);
 int print_prg(va_list __attribute__((unused)), char *, unsigned int);
 int print_chr(va_list arguments, char *buf, unsigned int ibuf);
-int print_chr(va_list arguments, char *buf, unsigned int ibuf);
 
 #endif
